@@ -43,14 +43,6 @@ rpm:
   # Example (which also demonstrates version number expansion):
   # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%FEDORA_VERSION%/atim-starship-fedora-%FEDORA_VERSION%.repo
 
-    - https://mirrors.rpmfusion.org/metalink?repo=free-fedora-source-$releasever&arch=$basearch
-    - https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-source-$releasever&arch=$basearch
-    - https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-testing-source-$releasever&arch=$basearch
-
-    - https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-testing-source-$releasever&arch=$basearch
-    - https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-source-$releasever&arch=$basearch
-    - https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-testing-source-$releasever&arch=$basearch
-
   # These RPMs will be installed from your enabled repositories (Fedora's own
   # repos, extra "repos" you've added, etc). The installation is automatically
   # performed via rpm-ostree during the image build, and will be pre-installed
