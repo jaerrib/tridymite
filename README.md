@@ -1,4 +1,4 @@
-# Starting point
+# tridymite
 
 [![build-ublue](https://github.com/jaerrib/tridymite/actions/workflows/build.yml/badge.svg)](https://github.com/jaerrib/tridymite/actions/workflows/build.yml)
 
